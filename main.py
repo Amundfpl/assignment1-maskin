@@ -1,28 +1,12 @@
-import kagglehub
-import pandas as pd
-import os
+from task_1_1 import run_task_1_1
+from task_1_2 import run_task_1_2
 
-# Download latest version
-path = kagglehub.dataset_download("yasserh/wine-quality-dataset")
-print("Path to dataset files:", path)
+def main():
+    # Run Task 1.1
+    df = run_task_1_1()
 
-# Path to CSV file
-csv_path = os.path.join(path, "WineQT.csv")  # adjust filename if needed
+    # Run Task 1.2
+    run_task_1_2(df)
 
-# Load into DataFrame
-df = pd.read_csv(csv_path)
-
-# 1. Display first 5 rows
-print("First 5 rows:")
-print(df.head())
-
-# 2. Print dataset info
-print("\nDataset Information:")
-print(df.info())
-
-# 3. Print summary statistics
-print("\nSummary Statistics:")
-print(df.describe())
-
-print("Features with highest standard deviation:")
-print(df.describe().T[["std"]].sort_values("std", ascending=False))
+if __name__ == "__main__":
+    main()
