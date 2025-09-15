@@ -7,7 +7,7 @@ def run_task_1_3_2(df):
     to predict wine quality from alcohol.
     """
     # Extract variables
-    X = (df["alcohol"].values - df["alcohol"].mean()) / df["alcohol"].std()
+    X = df["alcohol"].values
     y = df["quality"].values
 
     # Normalize X (optional but helps gradient descent)
