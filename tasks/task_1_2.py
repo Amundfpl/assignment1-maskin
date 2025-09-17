@@ -23,7 +23,7 @@ def run_task_1_2(df):
 
     plt.title("Correlation Matrix Heatmap", fontsize=14)
     plt.tight_layout()
-    plt.savefig("correlation_matrix_heatmap.png", dpi=300, bbox_inches="tight")
+    plt.savefig("bilder/correlation_matrix_heatmap.png", dpi=300, bbox_inches="tight")
     plt.show()
 
     # Q1.2.3 - Strongest pos/neg correlation with quality
@@ -33,3 +33,6 @@ def run_task_1_2(df):
 
     print("\nStrongest positive correlation with quality:", strongest_pos)
     print("Strongest negative correlation with quality:", strongest_neg)
+
+    # Q1.2.4 - Scatter plots for strongest correlations
+    
