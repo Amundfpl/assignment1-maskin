@@ -45,5 +45,5 @@ def run_task_1_3(df):
     plt.title("Task 1.3: Linear Regression (Gradient Descent)")
     plt.legend()
     plt.tight_layout()
-    plt.savefig("bilder/task_1_3_regression.png", dpi=300)
+    plt.savefig("Images/task_1_3_regression.png", dpi=300)
     plt.show()

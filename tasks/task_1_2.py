@@ -23,7 +23,7 @@ def run_task_1_2(df):
 
     plt.title("Correlation Matrix Heatmap", fontsize=14)
     plt.tight_layout()
-    plt.savefig("bilder/correlation_matrix_heatmap.png", dpi=300, bbox_inches="tight")
+    plt.savefig("Images/correlation_matrix_heatmap.png", dpi=300, bbox_inches="tight")
     plt.show()
 
     # Q1.2.3 - Strongest pos/neg correlation with quality

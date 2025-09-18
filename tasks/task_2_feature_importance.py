@@ -41,5 +41,5 @@ def run_task_2_1(df):
     plt.xlabel("Absolute Coefficient (Importance)")
     plt.title("Feature Importance in Predicting Wine Quality")
     plt.tight_layout()
-    plt.savefig("bilder/feature_importance.png", dpi=300)
+    plt.savefig("Images/feature_importance.png", dpi=300)
     plt.show()

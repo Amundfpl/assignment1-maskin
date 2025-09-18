@@ -1,17 +1,17 @@
-from tasks.data_init import load_dataset
-from tasks.task_1_1 import run_task_1_1
-from tasks.task_1_2 import run_task_1_2
-from tasks.task_1_3 import run_task_1_3
-from tasks.task_1_3_2 import run_task_1_3_2
-from tasks.task_1_3_4 import plot_regression
-from tasks.task_1_4 import run_task_1_4
-from tasks.task_1_5 import run_task_1_5
-from tasks.task_1_5_3 import run_task_1_5_3
-from tasks.task_1_5_3_plotResiduals import plot_residuals
-from tasks.task_2_2 import run_task_2_2
-from tasks.task_2_3 import run_task_2_3
-from tasks.task_2_4 import run_task_2_4
-from tasks.task_2_feature_importance import run_task_2_1
+from Tasks.data_init import load_dataset
+from Tasks.task_1_1 import run_task_1_1
+from Tasks.task_1_2 import run_task_1_2
+from Tasks.task_1_3 import run_task_1_3
+from Tasks.task_1_3_2 import run_task_1_3_2
+from Tasks.task_1_3_4 import plot_regression
+from Tasks.task_1_4 import run_task_1_4
+from Tasks.task_1_5 import run_task_1_5
+from Tasks.task_1_5_3 import run_task_1_5_3
+from Tasks.task_1_5_3_plotResiduals import plot_residuals
+from Tasks.task_2_2 import run_task_2_2
+from Tasks.task_2_3 import run_task_2_3
+from Tasks.task_2_4 import run_task_2_4
+from Tasks.task_2_feature_importance import run_task_2_1
 
 def main():
     
@@ -21,8 +21,8 @@ def main():
     #run_task_1_2(df)      # Task 1.2
     #run_task_1_3_2(df)      # Task 1.3.2
     #run_task_1_3(df)      # Task 1.3
-    #plot_regression(df, "chlorides", -0.100, 5.657, "bilder/chlorides_regression.png")
-    #plot_regression(df, "alcohol", 0.390, 5.657, "bilder/alcohol_regression.png")
+    #plot_regression(df, "chlorides", -0.100, 5.657, "Images/chlorides_regression.png")
+    #plot_regression(df, "alcohol", 0.390, 5.657, "Images/alcohol_regression.png")
     #run_task_1_4(df)      # Task 1.4
     #run_task_1_5(df)      # Task 1.5
     #run_task_1_5_3(df)    # Task 1.5.3

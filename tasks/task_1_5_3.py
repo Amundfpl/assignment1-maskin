@@ -35,5 +35,5 @@ def run_task_1_5_3(df):
     plt.title("Predicted vs Actual Wine Quality")
     plt.legend()
     plt.tight_layout()
-    plt.savefig("bilder/predicted_vs_actual.png", dpi=300)
+    plt.savefig("Images/predicted_vs_actual.png", dpi=300)
     plt.show()

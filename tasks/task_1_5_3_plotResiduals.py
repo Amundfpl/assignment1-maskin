@@ -18,5 +18,5 @@ def plot_residuals(df):
     plt.ylabel("Residuals (Actual - Predicted)")
     plt.title("Residuals Plot (Multiple Regression)")
     plt.tight_layout()
-    plt.savefig("bilder/residuals_plot.png", dpi=300)
+    plt.savefig("Images/residuals_plot.png", dpi=300)
     plt.show()
