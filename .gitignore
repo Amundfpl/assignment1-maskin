@@ -4,6 +4,3 @@ __pycache__/
 
 # Virtual environment
 .env/
-
-# Local images/screenshots
-bilder/
